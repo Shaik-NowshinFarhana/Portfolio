@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShaikNowshinFarhana— Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+    })();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+</head>
+
+<body>
+  <script>document.documentElement.classList.add('has-js');</script>
+
+  <!-- INTRO SCREEN -->
+
+  <!-- cinematic style -->
+  <div id="intro">
+    <div class="vignette"></div>
+    <div class="noise"></div>
+
+    <div class="glow-orb"></div>
+
+    <h1 id="name">
+      <span data-letter="N">N</span>
+      <span data-letter="o">o</span>
+      <span data-letter="w">w</span>
+      <span data-letter="s">s</span>
+      <span data-letter="h">h</span>
+      <span data-letter="i">i</span>
+      <span data-letter="n">n</span>
+
+      <span data-letter="F">F</span>
+      <span data-letter="a">a</span>
+      <span data-letter="r">r</span>
+      <span data-letter="h">h</span>
+      <span data-letter="a">a</span>
+      <span data-letter="n">n</span>
+      <span data-letter="a">a</span>
+    </h1>
+
+    <div class="light"></div>
+  </div>
+
+
+
+  <div id="progressBar"></div>
+
+  <header class="rail" id="rail">
+    <div class="rail-brand">
+      <div class="mark">NF</div>
+      <div class="tag mono">portfolio</div>
+    </div>
+
+    <nav class="rail-tabs" id="railTabs">
+
+      <a href="#top" data-target=""><span class="label">Home</span></a>
+      <a href="#profile" data-target="profile"><span class="label">Profile</span></a>
+      <a href="#projects" data-target="projects"><span class="label">Projects</span></a>
+      <a href="#internships" data-target="internships"><span class="label">Internships</span></a>
+      <!-- <a href="#certifications" data-target="certifications"><span class="label">Certifications</span></a> -->
+      <a href="#achievements" data-target="achievements"><span class="label">Achievements</span></a>
+      <a href="#contact" data-target="contact"><span class="label">Contact</span></a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode" aria-pressed="false" type="button">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" />
+      </svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+        <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" />
+      </svg>
+    </button>
+
+    <div class="rail-foot">
+      <a href="#top" aria-label="Back to top" title="Back to top">↑</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="grid-bg"></div>
+      <span class="crosshair tl"></span>
+      <span class="crosshair tr"></span>
+      <span class="crosshair br"></span>
+
+
+      <div class="hero-inner">
+        <div class="reveal">
+          <div class="eyebrow mono">Open to opportunities</div>
+          <h1>Shaik <br> Nowshin Farhana<br><span></span></h1>
+          <div class="accent-bar"></div>
+          <div class="role">/&gt; building things with code &amp; curiosity<span class="cursor"></span></div>
+          <p class="lede">Turning ambitious ideas into intuitive digital experiences—driven by curiosity, continuous
+            learning, and a passion for
+            solving real-world problems.</p>
+
+          <div class="hero-cta">
+            <a href="https://github.com/Shaik-NowshinFarhana" class="btn btn-solid">View Projects</a>
+            <a href="./Resume/RESUME_FOR_AIML.pdf" class="btn btn-outline">Download
+              Resume</a>
+            <a href="https://www.linkedin.com/in/shaik-nowshin-farhana-14b740289/" class="btn btn-outline">Get In
+              Touch</a>
+          </div>
+
+          <!-- <div class="hero-meta">
+            <div data-accent="brass"><strong>[X]+</strong>Projects Built</div>
+            <div data-accent="blue"><strong>[X]</strong>Internships</div>
+            <div data-accent="coral"><strong>[X]</strong>Certifications</div>
+          </div> -->
+        </div>
+
+        <div class="photo-wrap reveal in">
+          <div class="photo-frame">
+            <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span
+              class="corner c4"></span> \
+
+
+            <img src="./images/mypic-copy.png" alt="Myphoto">
+          </div>
+          <div class="fig-caption">FIG. 01 — PORTRAIT, 4:5</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROFILE ============ -->
+    <section class="sheet" id="profile">
+      <div class="sheet-head reveal">
+
+        <h2>Profile</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="profile-grid reveal">
+        <div>
+          <p>I'm a final-year Computer Science student passionate about solving meaningful problems and creating
+            practical,
+            intuitive, and user-centered solutions. I enjoy turning ideas into impactful experiences and am driven by
+            curiosity and
+            a commitment to continuous learning. I approach every challenge with creativity, attention to detail, and a
+            collaborative mindset, always striving to grow through hands-on experience and thoughtful problem-solving. I
+            believe in
+            building with purpose, embracing new ideas, and creating solutions that make a positive real-world impact.
+          </p>
+          <p>Currently, I am seeking opportunities where I can contribute, learn from experienced professionals,
+            collaborate with
+            talented teams, and continue growing both personally and professionally.</p>
+
+          <!-- <h3 style="margin-top:30px; margin-bottom:6px; font-size:1.05rem;">Skills &amp; Tools</h3> -->
+          <!-- <div class="skill-cloud">
+            <span class="skill-tag">Skill 01</span>
+            <span class="skill-tag">Skill 02</span>
+            <span class="skill-tag">Skill 03</span>
+            <span class="skill-tag">Skill 04</span>
+            <span class="skill-tag">Skill 05</span>
+            <span class="skill-tag">Skill 06</span>
+            <span class="skill-tag">Skill 07</span>
+            <span class="skill-tag">Skill 08</span>
+          </div> -->
+        </div>
+
+        <!-- <div class="stat-block">
+          <div class="stat-card" data-accent="brass"><strong>9.0</strong><span>CGPA / Grade</span></div>
+          <div class="stat-card" data-accent="blue"><strong>[X]</strong><span>Years Learning</span></div>
+          <div class="stat-card" data-accent="coral"><strong>[X]</strong><span>Hackathons</span></div>
+          <div class="stat-card" data-accent="sage"><strong>[X]</strong><span>Open Source PRs</span></div>
+        </div>
+      </div> -->
+        <!-- RIGHT SIDE -->
+        <div class="workspace reveal">
+
+          <div class="assistant-box">
+
+            <img id="assistantFrame" src="./assets/frames/frame1.png" alt="Assistant">
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="sheet" id="projects">
+
+      <div class="sheet-head reveal">
+        <h2>Projects</h2>
+        <span class="rule"></span>
+      </div>
+
+      <p class="sheet-sub reveal">
+        A selection of things I've built, from class assignments to weekend experiments.
+      </p>
+
+      <div class="projects-container">
+
+        <button class="project-arrow prev" onclick="scrollProjects(-1)">
+          ❮
+        </button>
+
+        <div class="project-grid reveal" id="projectGrid">
+
+
+
+          <!-- PROJECT 2 -->
+          <article class="card" data-accent="blue">
+
+            <div class="card-media">
+              <img src="./images/BlockchainBasedHealthCareManagementSystem.png">
+            </div>
+
+            <div class="card-body">
+              <span class="card-badge">Web App</span>
+
+              <h3>Blockchain based Healthcare management System</h3>
+
+              <p>
+                Building trust into healthcare through blockchain-powered security, transparency, and seamless access to
+                medical records.
+              </p>
+              <div class="card-links">
+                <a href="https://www.linkedin.com/in/shaik-nowshin-farhana-14b740289/">Contact me →</a>
+              </div>
+            </div>
+          </article>
+          <!-- PROJECT 1 -->
+
+          <article class="card" data-accent="brass">
+
+            <div class="card-media">
+              <img src="./images/SIH-DyanamicRouteRationalisation-1copy.jpg">
+              <br>
+            </div>
+
+            <div class="card-body">
+              <span class="card-badge">Mobile App</span>
+
+              <h3>Dynamic Route Rationalisation</h3>
+
+              <p>
+                An AI-powered route optimization platform that adapts to real-time conditions to deliver faster,
+                smarter, and more
+                efficient journeys.
+              </p>
+
+
+              <div class="card-links">
+                <a href="#https://github.com/Shaik-NowshinFarhana/SIH_2K24_Project">Source Code →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="card" data-accent="coral">
+
+            <div class="card-media">
+              <img src="./images/Musentia.png">
+            </div>
+
+            <div class="card-body">
+              <span class="card-badge">Streamlit Application</span>
+
+              <h3>Musentia</h3>
+
+              <p>
+                An AI-powered music recommendation platform where every emotion deserves a soundtrack, delivering
+                personalized songs
+                that resonate with your mood.
+              </p>
+
+              <div class="card-links">
+                <a href="#https://github.com/Shaik-NowshinFarhana/Musentia.git">Source Code →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- project-4 -->
+          <article class="card" data-accent="brass">
+            <span class="tape"></span>
+
+            <div class="card-media">
+              <img src="./images/ETAs.png">
+            </div>
+
+            <div class="card-body">
+              <span class="card-badge">Streamlit Application</span>
+
+              <h3>Optimizing Delivery ETAs with graph based network intelligence</h3>
+
+              <p>
+                Developed an intelligent delivery ETA prediction system that analyzes delivery patterns and route
+                conditions to provide
+                accurate time estimates and improve logistics efficiency.
+              </p>
+
+              <div class="card-links">
+                <a href="#https://optimizing-etas-with.streamlit.app/">Live Demo →</a>
+              </div>
+            </div>
+          </article>
+          <!-- project-4 -->
+          <article class="card" data-accent="brass">
+            <span class="tape"></span>
+
+            <div class="card-media">
+              <img src="./images/Airline.png">
+            </div>
+
+            <div class="card-body">
+              <span class="card-badge">Streamlit Application</span>
+
+              <h3>Unlocking Behavioural Intelligence in Airline Loyalty Program</h3>
+
+              <p>
+                Developed a machine learning solution to analyze airline loyalty member behavior, predict customer
+                churn, and generate
+                insights that support personalized retention strategies.
+              </p>
+
+              <div class="card-links">
+                <a href="#https://airline-loyalty-summerprojectiitguwahati-xmus8g5se5zrcpidyxsgq.streamlit.app/">Live
+                  Demo →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <button class="project-arrow next" onclick="scrollProjects(1)">
+          ❯
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- ============ INTERNSHIPS ============ -->
+    <section class="sheet" id="internships">
+      <div class="sheet-head reveal">
+
+        <h2>Internships &amp; Experience</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="ruler reveal">
+        <div class="timeline-item">
+          <div class="tl-head">
+            <h3>Data Visualization Associate</h3>
+            <span class="tl-date">[June 2026] — [July 2026]</span>
+          </div>
+          <div class="tl-org">Excelerate - Remote</div>
+          <!-- <ul>
+            <li>[What you worked on — be specific about a tool, feature, or system.]</li>
+            <li>[A measurable outcome or impact, if possible — e.g. reduced load time, automated a task.]</li>
+            <li>[A skill or technology you used or learned on the job.]</li>
+          </ul> -->
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-head">
+            <h3>AI/ML engineer (Intern)</h3>
+            <span class="tl-date">[Dec 2024] — [April 2025]</span>
+          </div>
+          <div class="tl-org">Parabola9 - Nuzvid</div>
+          <ul>
+            <li>Worked on real-time operational datasets, performing structured data labeling and annotation to support
+              machine
+              learning workflows.</li>
+            <!-- <li>[A measurable outcome or impact, if possible.]</li> -->
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-head">
+            <h3>Software Developer Engineer</h3>
+            <span class="tl-date">[March 2024] — [October 2024]</span>
+          </div>
+          <div class="tl-org">DevSecEngOps - Remote</div>
+          <ul>
+            <li>Developed responsive web interfaces and contributed to frontend feature implementation for internal web
+              applications.</li>
+            <li>Built Python-based web scraping pipelines to extract, clean, and process structured data from multiple
+              online
+              sources.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="sheet" id="achievements">
+      <div class="sheet-head reveal">
+        <span class="sheet-num">SHEET 05</span>
+        <h2>Achievements</h2>
+        <span class="rule"></span>
+      </div>
+      <div class="ach-item" data-accent="sage">
+        <div class="ach-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4z" />
+            <path d="M7 6H4a3 3 0 0 0 3 5M17 6h3a3 3 0 0 1-3 5" />
+          </svg></div>
+        <div class="ach-text">
+          <h3>Bodhitree Coder-IIT Bombay</h3>
+          <p>BodhiTree Coding Challenge – Recognized for strong performance and shortlisted for interview and test at
+            IIT Bombay
+            based on programme results.</p>
+        </div>
+        <div class="ach-date">Jan-March 2026</div>
+      </div>
+      </div>
+      <div class="ach-list reveal">
+        <div class="ach-item" data-accent="brass">
+          <div class="ach-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4z" />
+              <path d="M7 6H4a3 3 0 0 0 3 5M17 6h3a3 3 0 0 1-3 5" />
+            </svg></div>
+          <div class="ach-text">
+            <h3>Smart India Hackathon'24-WINNER </h3>
+            <p>Selected among the Top 5 finalist teams nationwide for our problem statement and emerged as the National
+              Grand Finale
+              Winner.</p>
+          </div>
+          <div class="ach-date">[Dec 2024]</div>
+        </div>
+
+        <div class="ach-item" data-accent="blue">
+          <div class="ach-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4z" />
+              <path d="M7 6H4a3 3 0 0 0 3 5M17 6h3a3 3 0 0 1-3 5" />
+            </svg></div>
+          <div class="ach-text">
+            <h3>Parabola9 Hacathon-Winner</h3>
+            <p>Developed an AI-powered document intelligence solution that accurately extracted and structured data from
+              highly
+              unstructured handwritten and printed marksheets.</p>
+          </div>
+          <div class="ach-date">[Oct 2024]</div>
+        </div>
+
+        <div class="ach-item" data-accent="coral">
+          <div class="ach-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4z" />
+              <path d="M7 6H4a3 3 0 0 0 3 5M17 6h3a3 3 0 0 1-3 5" />
+            </svg></div>
+          <div class="ach-text">
+            <h3>Aaavishkar Hackathon-Finalist</h3>
+            <p>Recognized among the finalist teams for developing NutriScan, an AI-powered food insight solution with
+              real-world
+              impact.</p>
+          </div>
+          <div class="ach-date">[Dec 2024]</div>
+        </div>
+    </section>
+    <!-- ============ CERTIFICATIONS ============
+    <section class="sheet" id="certifications">
+      <div class="sheet-head reveal">
+        <span class="sheet-num">SHEET 04</span>
+        <h2>Certifications</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="cert-grid reveal">
+        <div class="cert-card" data-accent="brass">
+          <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 2l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 15l-5.2 3 1-5.8-4.3-4.1 5.9-.8z" />
+            </svg></div>
+          <div>
+            <h3>[Certification Name]</h3>
+            <div class="issuer">[Issuing Platform / Organization]</div>
+            <div class="meta-row">
+              <span class="date mono">[MON YYYY]</span>
+              <a href="#">View →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card" data-accent="blue">
+          <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 2l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 15l-5.2 3 1-5.8-4.3-4.1 5.9-.8z" />
+            </svg></div>
+          <div>
+            <h3>[Certification Name]</h3>
+            <div class="issuer">[Issuing Platform / Organization]</div>
+            <div class="meta-row">
+              <span class="date mono">[MON YYYY]</span>
+              <a href="#">View →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card" data-accent="coral">
+          <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 2l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 15l-5.2 3 1-5.8-4.3-4.1 5.9-.8z" />
+            </svg></div>
+          <div>
+            <h3>[Certification Name]</h3>
+            <div class="issuer">[Issuing Platform / Organization]</div>
+            <div class="meta-row">
+              <span class="date mono">[MON YYYY]</span>
+              <a href="#">View →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card" data-accent="sage">
+          <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 2l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 15l-5.2 3 1-5.8-4.3-4.1 5.9-.8z" />
+            </svg></div>
+          <div>
+            <h3>[Certification Name]</h3>
+            <div class="issuer">[Issuing Platform / Organization]</div>
+            <div class="meta-row">
+              <span class="date mono">[MON YYYY]</span>
+              <a href="#">View →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card" data-accent="brass">
+          <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 2l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 15l-5.2 3 1-5.8-4.3-4.1 5.9-.8z" />
+            </svg></div>
+          <div>
+            <h3>[Certification Name]</h3>
+            <div class="issuer">[Issuing Platform / Organization]</div>
+            <div class="meta-row">
+              <span class="date mono">[MON YYYY]</span>
+              <a href="#">View →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card" data-accent="blue">
+          <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 2l2.6 5.3 5.9.8-4.3 4.1 1 5.8L12 15l-5.2 3 1-5.8-4.3-4.1 5.9-.8z" />
+            </svg></div>
+          <div>
+            <h3>[Certification Name]</h3>
+            <div class="issuer">[Issuing Platform / Organization]</div>
+            <div class="meta-row">
+              <span class="date mono">[MON YYYY]</span>
+              <a href="#">View →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- ============ CONTACT ============ -->
+    <!-- ============ CONTACT ============ -->
+    <section class="sheet titleblock-section" id="contact">
+
+      <div class="sheet-head reveal">
+        <h2>Contact</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="contact-wrapper">
+
+        <!-- LEFT -->
+        <div class="contact-left reveal">
+
+          <h2>Let's build <br>something together.</h2>
+
+          <p>
+            Open to internship and full-time opportunities.
+            <br><br>
+            Have an exciting project or opportunity?
+            I'd love to hear from you. Reach out through email
+            or connect with me on social media.
+          </p>
+
+          <div class="social-row">
+
+            <a href="https://github.com/Shaik-NowshinFarhana" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/shaik-nowshin-farhana-14b740289/" target="_blank">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <!-- RIGHT -->
+        <div class="contact-card reveal">
+
+          <div class="availability">
+            <span class="pulse"></span>
+            <p>Available for Opportunities</p>
+          </div>
+
+          <div class="contact-info">
+
+            <div class="info-item">
+              <span>📧</span>
+              <p>nowshinfarhanask@gmail.com</p>
+            </div>
+
+            <div class="info-item">
+              <span>📍</span>
+              <p>Guntur,India</p>
+            </div>
+            <div class="info-item">
+              <span>💼</span>
+              <p>Open to work</p>
+            </div>
+
+            <div class="info-item">
+              <span>⚡</span>
+              <p>Replies within 24 hours</p>
+            </div>
+
+          </div>
+          <div>
+            <a href="#
+              class=" contact-btn">
+            </a>
+          </div>
+
+        </div>
+
+    </section>
+
+
+  </main>
+
+  <footer class="premium-footer">
+    <h2>Shaik NowshinFarhana</h2>
+    <p>Building premium digital experiences, AI solutions and modern web applications.</p>
+    <span>© <span id="year"></span> Drafted with care.</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+</body>
+<script src="./main.js"></script>
+
+</html>
